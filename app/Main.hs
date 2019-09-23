@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import qualified Ankimo
 
 main :: IO ()
-main = someFunc
+main = Ankimo.run
